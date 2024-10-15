@@ -21,7 +21,7 @@ app.use("/api/v1/company", companyRouter);
 app.use("/api/v1/job", jobRouter);
 app.use("/api/v1/applicant", applicantsRouter);
 
-const port = process.env.PORT || 5000;
+const port = 3000;
 
 app.get("/api", (req, res) => {
   res.send({
