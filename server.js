@@ -17,8 +17,11 @@ app.use(cookieParser());
 app.use(cors({ origin: true, credentials: true }));
 
 app.use("/api/v1/user", userRouter);
+
 app.use("/api/v1/company", companyRouter);
+
 app.use("/api/v1/job", jobRouter);
+
 app.use("/api/v1/applicant", applicantsRouter);
 
 const port = 3000;
