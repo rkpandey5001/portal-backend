@@ -24,7 +24,7 @@ app.use("/api/v1/applicant", applicantsRouter);
 const port = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
-  res.send({ message: "Welcome to Job Portal" });
+  res.send({ message: "Welcome to Job Portal Website" });
 });
 
 app.listen(port, (error) => {
