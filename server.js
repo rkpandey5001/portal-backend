@@ -24,7 +24,9 @@ app.use("/api/v1/applicant", applicantsRouter);
 const port = process.env.PORT || 5000;
 
 app.get("/api", (req, res) => {
-  res.send({ message: "Welcome to Job Portal Website" });
+  res.send({
+    message: "Welcome to Job Portal Website developed by Rahul Kumar Pandey",
+  });
 });
 
 app.listen(port, (error) => {
